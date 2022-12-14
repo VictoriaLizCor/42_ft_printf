@@ -6,6 +6,7 @@ fi
 
 git submodule foreach git add -A .
 git submodule foreach git commit -am "$1"
+git submodule foreach git push
 
 git add -A .
 git commit -am "$1"
