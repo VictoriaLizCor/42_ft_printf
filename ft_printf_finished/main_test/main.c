@@ -163,6 +163,35 @@ int	main(void)
 	int	tmp1;
 	int	tmp2;
 
+	printf("%d\n", printf("m%s %s %s %s %s %s %s %s %s %s %s %d %p %x %x %c hi %% hello %i %u\n", string, string, string, string, string, string, string, string, string, string, string, 11, string, 111, 0xF, 'c', 3, -94576579));
+	printf("%d\n",ft_printf("m%s %s %s %s %s %s %s %s %s %s %s %d %p %x %x %c hi %% hello %i %u\n", string, string, string, string, string, string, string, string, string, string, string, 11, string, 111, 0xF, 'c', 3, -94576579));
+	
+	// printf(" 			            \n");
+	// ft_printf(" 			            \n");
+	// printf("\n\n\n\n\n\n\n\n\n");
+	// ft_printf("\n\n\n\n\n\n\n\n\n");
+	// printf("HI        HELLO\n");
+	// ft_printf("HI        HELLO\n");
+	// printf("( )\n");
+	// ft_printf("( )\n");
+	// printf("(psidxldch)\n");
+	// ft_printf("(psidxldch)\n");
+	// printf("%p\n", NULL);
+	// ft_printf("%p\n", NULL);
+	// printf("\n");
+	// ft_printf("\n");
+	// printf("%% %s hi\n", "hello");
+	// ft_printf("%% %s hi\n", "hello");
+	// printf("%s %s hi\n", string, string);
+	// ft_printf("%s %s hi\n", string, string);
+	// printf("%d\n", INT_MIN);
+	// ft_printf("%d\n", INT_MIN);
+	// printf("%d\n", INT_MIN - 1);
+	// ft_printf("%d\n", INT_MIN - 1);
+	// printf("%d\n", INT_MAX);
+	// ft_printf("%d\n", INT_MAX);
+	// printf("%d\n", INT_MAX + 1);
+	// ft_printf("%d\n", INT_MAX + 1);
 	printf("\n********************\n");
 	tmp1 = ft_printf("");
 	printf("\n*empty* %d\n", tmp1);
